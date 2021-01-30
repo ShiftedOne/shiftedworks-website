@@ -155,7 +155,7 @@ header .main-header{position: relative;height: 100vh;width: 100%;background: url
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Box 1----------------------------------- */
 /* ---------------------------------------------------------------------------- */
-.content-box.box-1 {text-align: right}
+.content-box.box-1 {text-align: left}
 .content-box.box-1 .about-sum{}
 .content-box.box-1 .about-sum h3{color: #141414;font-size: 2.1em;text-transform: uppercase;margin-bottom: 20px}
 .content-box.box-1 .about-sum p{font-size: 1.2em;margin-bottom: 15px}
