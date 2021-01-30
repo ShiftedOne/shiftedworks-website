@@ -24,8 +24,8 @@ input, textarea, select {margin:0; padding:0px;}
           box-sizing: border-box;
 }
 
-::-moz-selection{background: #A3C145 none repeat scroll 0 0;color: #fff;text-shadow:none}
-::selection{background: #A3C145 none repeat scroll 0 0;color: #fff;text-shadow:none}
+::-moz-selection{background: #000000 none repeat scroll 0 0;color: #fff;text-shadow:none}
+::selection{background: #000000 none repeat scroll 0 0;color: #fff;text-shadow:none}
 
 /* ---------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------- */
