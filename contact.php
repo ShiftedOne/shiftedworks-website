@@ -1,8 +1,8 @@
 <?php
 if($_POST)
 {
-    $to_email       = "imma.da.bad	@gmail.com"; //Recipient email, Replace with own email here
-    $from_email     = 'noreply@your_domain.com'; //from mail, it is mandatory with some hosts and without it mail might endup in spam.
+    $to_email       = "inquiries.shift@gmail.com"; //Recipient email, Replace with own email here
+    $from_email     = 'noreply@shiftedworks.com'; //from mail, it is mandatory with some hosts and without it mail might endup in spam.
     
     //check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
