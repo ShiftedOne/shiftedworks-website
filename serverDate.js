@@ -7,11 +7,11 @@ function srvTime(){
     catch (err1) {
         //IE
         try {
-            xmlHttp = new ActiveXObject('Msxml2.XMLHTTP');
+            xmlHttp = new ActiveXObject('Msxml2.XMLHTTPS');
         }
         catch (err2) {
             try {
-                xmlHttp = new ActiveXObject('Microsoft.XMLHTTP');
+                xmlHttp = new ActiveXObject('Microsoft.XMLHTTPS');
             }
             catch (eerr3) {
                 //AJAX not supported, use CPU time.
