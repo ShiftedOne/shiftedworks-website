@@ -3036,7 +3036,7 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-header {
-    --header-height : 72px;
+    --header-height : px;
     --logo-width    : 10.2rem;
     --width-grid-max: calc(var(--width-sixteen-cols) - calc(var(--gutter) * 2));
     --box-shadow    : 0 1px 1px rgba(0, 0, 0, 0.02),
@@ -3117,13 +3117,13 @@ td:last-child {
 .s-header__logo a {
     display: block;
     margin : 0;
-    padding: 0;
+    padding: 11.5px;
     outline: 0;
     border : none;
 }
 
 .s-header__logo img {
-    width         : var(--logo-width);
+    max-width: 25%;
     margin        : 0;
     vertical-align: bottom;
 }
